@@ -1,8 +1,26 @@
-div {
+body {
+  background-color: #f5f5f5;
+}
+
+.section {
   margin: auto;
   line-height: 1.6;
   max-width: 1400px;
+  width: 80%;
   font-family: "Roboto", sans-serif;
+}
+
+.showcase {
+  clear: both;
+}
+
+.description {
+  max-width: 60%;
+}
+
+.showcase img {
+  max-width: 30%;
+  float: right;
 }
 
 h1,

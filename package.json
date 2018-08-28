@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Portfolio website of Callum Bryson",
+  "main": "index.js",
+  "repository": "https://github.com/calbri/calbri.github.io.git",
+  "author": "Callum Bryson <callumjbryson@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {}
+}
