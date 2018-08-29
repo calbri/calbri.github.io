@@ -64,49 +64,47 @@
         </div>
 
         <div class="section">
-            <div>
-                <h1>Projects</h1>
-                <div class="showcase">
-                    <img src="images/cc.PNG" />
-                    <h1>CC - Social Public Transport</h1>
-                    <aside><a href="https://github.com/Paul-Haley/CC">Github</a></aside>
+            <h1>Projects</h1>
+            <div class="showcase">
+                <img src="images/cc.PNG" />
+                <h1>CC - Social Public Transport</h1>
+                <aside><a href="https://github.com/Paul-Haley/CC">Github</a></aside>
 
-                    <div class="description">
-                        <p>CC was an app developed by University of Queensland and Dalian Neusoft University of Information
-                            students working as part of the New Colombo Scholarship. Designed to combat growing amounts of
-                            pollution in major cities, it provides incentives for users to use public transport through "gamification"
-                            - competing with friends to save the most amount of CO2 while earning rewards and vouchers for
-                            their favourite stores along the way.</p>
-
-
-                        <p>My role was in Android development, working on the interface and program flow within the app,
-                            following Material Design guidelines and providing a robust, data-driven interface.</p>
-                    </div>
+                <div class="description">
+                    <p>CC was an app developed by University of Queensland and Dalian Neusoft University of Information students
+                        working as part of the New Colombo Scholarship. Designed to combat growing amounts of pollution in
+                        major cities, it provides incentives for users to use public transport through "gamification" - competing
+                        with friends to save the most amount of CO2 while earning rewards and vouchers for their favourite
+                        stores along the way.</p>
 
 
+                    <p>My role was in Android development, working on the interface and program flow within the app, following
+                        Material Design guidelines and providing a robust, data-driven interface.</p>
+                </div>
 
+
+
+
+            </div>
+
+
+            <div class="showcase">
+                <img src="images/journeysea.PNG" />
+                <h1>Journey Under the Sea</h1>
+                <aside><a href="https://github.com/calbri/deco1400-site">Github</a> - <a href="https://calbri.github.io/deco1400-site">Website</a></aside>
+
+
+                <div class="description">
+
+                    <p>Made as part of DECO1400 - Introduction to Web Design. An adaptation of the beginning of a classic
+                        "Choose Your Own Adventure" novel, complete with interactive display elements, a nautical design
+                        and simple, easy to use navigation.</p>
+
+                    <p>Journey Under the Sea uses HTML, CSS and Javascript to present an interactive story adventure.</p>
 
                 </div>
 
 
-                <div class="showcase">
-                    <img src="images/journeysea.PNG" />
-                    <h1>Journey Under the Sea</h1>
-                    <aside><a href="https://github.com/calbri/deco1400-site">Github</a> - <a href="https://calbri.github.io/deco1400-site">Website</a></aside>
-
-
-                    <div class="description">
-
-                        <p>Made as part of DECO1400 - Introduction to Web Design. An adaptation of the beginning of a classic
-                            "Choose Your Own Adventure" novel, complete with interactive display elements, a nautical design
-                            and simple, easy to use navigation.</p>
-
-                        <p>Journey Under the Sea uses HTML, CSS and Javascript to present an interactive story adventure.</p>
-
-                    </div>
-
-
-                </div>
             </div>
         </div>
 
@@ -172,7 +170,11 @@
             anchors: ['intro', 'experience', 'projects', 'education', 'skills', 'awards'],
             navigation: true,
             navigationPosition: 'right',
-            navigationTooltips: ['Intro', 'Experience', 'Projects', 'Education', 'Skills', 'Awards']
+            navigationTooltips: ['Intro', 'Experience', 'Projects', 'Education', 'Skills', 'Awards'],
+            responsiveWidth: 1100,
+            afterResponsive: function (isResponsive) {
+
+            }
         });
     </script>
 </body>
