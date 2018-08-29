@@ -2,11 +2,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.min.css" />
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Callum Bryson</title>
+
+    <style>
+        #fp-nav ul li .fp-tooltip.fp-right {
+            color: #000000;
+        }
+    </style>
 </head>
 
 <body>
@@ -62,6 +67,7 @@
             <div>
                 <h1>Projects</h1>
                 <div class="showcase">
+                    <img src="images/cc.PNG" />
                     <h1>CC - Social Public Transport</h1>
                     <aside><a href="https://github.com/Paul-Haley/CC">Github</a></aside>
 
@@ -162,12 +168,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.min.js"></script>
     <script type="text/javascript">
         new fullpage('#fullpage', {
-            licenseKey: "OPEN-SOURCE-GPLV3-LICENSE"
+            licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
+            anchors: ['intro', 'experience', 'projects', 'education', 'skills', 'awards'],
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Intro', 'Experience', 'Projects', 'Education', 'Skills', 'Awards']
         });
-    </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
     </script>
 </body>
 
