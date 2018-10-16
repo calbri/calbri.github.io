@@ -1,11 +1,17 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.min.css" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <title>Callum Bryson</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <style>
         #fp-nav ul li .fp-tooltip.fp-right {
@@ -16,149 +22,263 @@
 
 <body>
     <div id="fullpage">
-        <div class="section">
-            <h1>Callum Bryson</h1>
+        <div class="container section">
+            <h1 class="display-1">Callum Bryson</h1>
 
-            <p>Hi, I'm a fourth year Software Engineering/Mathematics student at the University of Queensland, Brisbane,
+            <p class="lead">
+                Hi, I'm a fourth year Software Engineering/Mathematics student at the University of Queensland,
+                Brisbane,
                 Australia.
             </p>
 
-            <p>I build programs, apps and websites using Python, Javascript and Java. I also have experience with React Native,
-                compilers and databases. I'm currently working on my thesis - a deep learning based method of removing make-up
-                from portraits, extending research from <a href="https://arxiv.org/pdf/1802.10151.pdf">here</a> and <a href="https://ieeexplore.ieee.org/document/7299093/">here</a>.</p>
+            <p>I build programs, apps and websites using Python, Javascript and Java. I also have experience with
+                React
+                Native,
+                compilers and databases. I'm currently working on my thesis - a deep learning based method of
+                removing
+                make-up
+                from portraits, extending research from <a href="
+                https://arxiv.org/pdf/1802.10151.pdf">here</a>
+                and <a href="https://ieeexplore.ieee.org/document/7299093/">here</a>.</p>
 
             <p>Check out some of my projects at my <a href="http://github.com/calbri">GitHub</a>.</p>
         </div>
 
-        <div class="section">
-            <h1>My Experience</h1>
+        <div class="container section">
 
-            <h2>Work Experience</h2>
-            <h3>e-Commerce and Magento - <a href="http://www.ose.com.au">Online Solutions Experts</a></h3>
-            <aside>May 2018 - Present</aside>
-
-            <article>
-                <p>I have been assisting with the creation of an online store through research of products, formatting of
-                    images using Photoshop and configuration using Magento, an open-source PHP backend. I'm working in a
-                    professional environment in the heart of the Brisbane CBD alongside experienced web developers.</p>
-            </article>
-
-            <h2>Typing Assistance</h2>
-            <h3>PhD and Undergrad Courses - University of Queensland</h3>
-            <aside>July 2017 - Present</aside>
-
-            <article>
-                <p>I worked with a student in an IT Design Studio course to aid with programming, ticket creation in GitHub
-                    and communication within his group. I'm also currently assisting with a PhD project by providing typing
-                    and computer support in areas of research, professional documents and presentations.</p>
-            </article>
-
-            <h2>Tutoring</h2>
-            <h3>Grades 10-12 - Freelance</h3>
-            <aside>January 2015 - December 2017</aside>
-
-            <article>
-                <p>I worked as a tutor for high school students, covering Grade 11 and 12 Physics, Maths B, Maths C and Information
-                    Processing Technology. Also assisted with a Java programming course for university students.</p>
-            </article>
-        </div>
-
-        <div class="section">
-            <h1>Projects</h1>
-            <div class="showcase">
-                <img src="images/cc.PNG" />
-                <h1>CC - Social Public Transport</h1>
-                <aside><a href="https://github.com/Paul-Haley/CC">Github</a></aside>
-
-                <div class="description">
-                    <p>CC was an app developed by University of Queensland and Dalian Neusoft University of Information students
-                        working as part of the New Colombo Scholarship. Designed to combat growing amounts of pollution in
-                        major cities, it provides incentives for users to use public transport through "gamification" - competing
-                        with friends to save the most amount of CO2 while earning rewards and vouchers for their favourite
-                        stores along the way.</p>
+            <h1 class="display-4 p-3">My Experience</h1>
+            <div class="row">
+                <div class="col d-flex align-items-stretch  ">
+                    <div class="card">
+                        <strong class="card-header">Typing Assistance</strong>
+                        <div class="card-body">
+                            <div class="card-title text-muted">PhD and Undergrad Courses - University of Queensland</div>
 
 
-                    <p>My role was in Android development, working on the interface and program flow within the app, following
-                        Material Design guidelines and providing a robust, data-driven interface.</p>
+                            <article class="card-text">
+                                <p>I worked with a student in an IT Design Studio course to aid with programming,
+                                    ticket
+                                    creation
+                                    in
+                                    GitHub
+                                    and communication within his group. I'm also currently assisting with a PhD project
+                                    by
+                                    providing
+                                    typing
+                                    and computer support in areas of research, professional documents and
+                                    presentations.</p>
+                            </article>
+                        </div>
+
+                        <aside class="card-footer">July 2017 - Present</aside>
+                    </div>
                 </div>
 
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
+                        <strong class="card-header">Work Experience</strong>
+                        <div class="card-body">
+                            <div class="card-title text-muted">e-Commerce and Magento - <a href=" http://www.ose.com.au">Online
+                                    Solutions
+                                    Experts</a></div>
 
 
+                            <article class="card-text">
+                                I have been assisting with the creation of an online store through research of
+                                products,
+                                formatting
+                                of
+                                images using Photoshop and configuration using Magento, an open-source PHP backend. I'm
+                                working
+                                in
+                                a
+                                professional environment in the heart of the Brisbane CBD alongside experienced web
+                                developers.
+                            </article>
+                        </div>
 
-            </div>
-
-
-            <div class="showcase">
-                <img src="images/journeysea.PNG" />
-                <h1>Journey Under the Sea</h1>
-                <aside><a href="https://github.com/calbri/deco1400-site">Github</a> - <a href="https://calbri.github.io/deco1400-site">Website</a></aside>
-
-
-                <div class="description">
-
-                    <p>Made as part of DECO1400 - Introduction to Web Design. An adaptation of the beginning of a classic
-                        "Choose Your Own Adventure" novel, complete with interactive display elements, a nautical design
-                        and simple, easy to use navigation.</p>
-
-                    <p>Journey Under the Sea uses HTML, CSS and Javascript to present an interactive story adventure.</p>
-
+                        <aside class="card-footer">May 2018 - September 2018</aside>
+                    </div>
                 </div>
 
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
+                        <strong class="card-header">Tutoring</strong>
+                        <div class="card-body">
+                            <div class="card-title text-muted">Grades 10-12 - Freelance</div>
+
+
+                            <article class="card-text">
+                                I worked as a tutor for high school students, covering Grade 11 and 12 Physics, Maths
+                                B,
+                                Maths C
+                                and
+                                Information
+                                Processing Technology. Also assisted with a Java programming course for university
+                                students.
+                            </article>
+                        </div>
+
+                        <aside class="card-footer">January 2015 - December 2017</aside>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container section">
+            <h1 class="display-4 p-3">Projects</h1>
+            <div class="row">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
+                        <img class="card-img-top" src="images/cc.PNG" />
+                        <strong class="card-header">CC - Social Public Transport</strong>
+                        <div class="card-body">
+
+
+                            <div class="card-text">
+                                CC was an app developed by University of Queensland and Dalian Neusoft University of
+                                Information students working as part of the New Colombo Scholarship.
+
+                                <p>My role was in Android development, working on the interface and program flow within
+                                    the app, following Material Design guidelines and providing a robust, data-driven
+                                    interface.</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="https://github.com/Paul-Haley/CC">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-stretch  ">
+                    <div class="card">
+                        <img class="card-img-top" src="images/journeysea.PNG" />
+                        <strong class="card-header">Journey Under the Sea</strong>
+                        <div class="card-body">
+                            <div class="card-text">
+
+                                Made as part of DECO1400 - Introduction to Web Design. An adaptation of the
+                                beginning of a classic "Choose Your Own Adventure" novel, complete with
+                                interactive display elements, a nautical design
+                                and simple, easy to use navigation.
+
+                                <p>Journey Under the Sea uses HTML, CSS and Javascript to present an
+                                    interactive story
+                                    adventure.</p>
+
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="https://github.com/calbri/deco1400-site">Github</a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://calbri.github.io/deco1400-site">Website</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
         </div>
 
 
-        <div class="section">
-            <h1>Education</h1>
-            <h2>University of Queensland</h2>
-            <h3>Bachelor of Engineering (Software)/Mathematics</h3>
-            <aside>January 2015 - December 2019 (Expected)</aside>
+        <div class="container section">
+            <h1 class="display-4 p-3">Education</h1>
 
-            <article>
-                <p>I have studied a number of Software Engineering concepts, such as programming in C, Python and Java, compilers,
-                    artificial intelligence and machine learning. In addition I have taken courses in Mathematics that accompanies
-                    this, such as logic, set theory and optimisation. I currently have a GPA of 6.458.</p>
-            </article>
+            <div class="row">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
 
-            <h2>St Joseph's College Gregory Terrace</h2>
-            <aside>January 2010 - December 2014</aside>
+                        <strong class="card-header">University of Queensland</strong>
+                        <div class="card-body">
+                            <div class="lead">Bachelor of Engineering (Software)/Mathematics</div>
 
-            <article>
-                <p>I achieved an Overall Position (OP) of 1, and achieved a Very High Achievement grade in all of my senior
-                    subjects (English, Maths B, Maths C, Physics, IPT and Japanese).</p>
-            </article>
+
+                            <div class="card-text">
+                                <p>I have studied a number of Software Engineering concepts, such as programming in C,
+                                    Python and Java, compilers, artificial intelligence and machine learning. In
+                                    addition I
+                                    have taken courses in Mathematics that accompanies this, such as logic, set theory
+                                    and
+                                    optimisation. I currently have a GPA of 6.458.</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <aside>January 2015 - December 2019 (Expected)</aside>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-stretch">
+                    <div class="card">
+                        <strong class="card-header">St Joseph's College Gregory Terrace</strong>
+
+                        <div class="card-body">
+                            <div class="lead">Grade 12</div>
+                            <div class="card-text">
+                                <p>I achieved an Overall Position (OP) of 1, and achieved a Very High Achievement
+                                    grade in all of my senior subjects (English, Maths B, Maths C, Physics, IPT and
+                                    Japanese).</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <aside>January 2010 - December 2014</aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container section">
+            <h1 class="display-4 p-3">Skills</h1>
+
+            <div class="row">
+                <div class="col align-items-stretch">
+                    <div class="card h-100">
+                        <strong class="card-header">Programming Languages and Tools</strong>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Java</li>
+                                <li class="list-group-item">Python</li>
+                                <li class="list-group-item">Javascript</li>
+                                <li class="list-group-item">Git</li>
+                                <li class="list-group-item">React</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col  align-items-stretch">
+                    <div class="card h-100">
+                        <strong class="card-header">Other Areas</strong>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Gurobi</li>
+                                <li class="list-group-item">Machine Learning</li>
+                                <li class="list-group-item">Photoshop</li>
+                                <li class="list-group-item">Microsoft Office</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
-        <div class="section">
-            <h1>Skills</h1>
-            <h2>Programming Languages and Tools</h2>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>Javascript</li>
-                <li>Git</li>
-                <li>React</li>
-            </ul>
-            <h2>Other Areas</h2>
-            <ul>
-                <li>Gurobi</li>
-                <li>Machine Learning</li>
-                <li>Photoshop</li>
-                <li>Microsoft Office</li>
-            </ul>
-        </div>
-
-
-        <div class="section">
-            <h1>Awards</h1>
+        <div class="container section">
+            <h1 class="display-4 p-3">Awards</h1>
             <ul>
                 <li>Dean's Commendation for Academic Excellence - 2016 & 2017</li>
                 <li>ICT Excellence Scholarship - 2015</li>
                 <li>Australian Student Prize - 2014</li>
                 <li>QCE Distinguished Academic Achiever's Award - 2014</li>
-                <li>1st Place - Senior Division Global Issues Future Problem Solving - Australian National Finals 2013</li>
+                <li>1st Place - Senior Division Global Issues Future Problem Solving - Australian
+                    National
+                    Finals
+                    2013</li>
             </ul>
         </div>
     </div>
@@ -177,6 +297,12 @@
             }
         });
     </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
