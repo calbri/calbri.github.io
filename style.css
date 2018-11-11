@@ -68,3 +68,7 @@ h3 {
 .card-img-top {
   max-height: 200px;
 }
+
+.card {
+  box-shadow: 5px 5px 20px black;
+}
